@@ -14,8 +14,7 @@ return new class extends Migration
         Schema::create('tasks', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->text('description')->nullable();
-            $table->boolean('isDone')->default(false);
+            $table->boolean('isDone')->default(false); // Establecer un valor predeterminado
             $table->timestamps();
         });
     }

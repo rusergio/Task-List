@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login ToDo List</title>
 
-
-
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="http://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
@@ -28,25 +26,26 @@
 
         <div class="mb-6">
             <form class="flex flex-col space-y-4 " method="POST" action="/">
-
+                {{-- div de para correo y contraseña --}}
                 <div>
-
                     <input type="email" name="title" placeholder="Escribe su correo electonico" size="30" class="py-3 px-3 bg-gray-100 rounded-xl ml-2 mr-1 ">
                     <input type="password" name="title" placeholder="Escribe su contraseña" size="23" class="py-3 px-3 bg-gray-100 rounded-xl mr-1">
-
                 </div>
+                {{-- Final del div para correo y contrasena --}}
 
+                {{-- Parte del Registrar Nuevo Usuario--}}
                 <div class="flex items-baseline">
                     <p class="ml-4">No tienes una cuenta?</p>
                     <a href="" class="font-bold ml-2 text-indigo-900 hover:text-indigo-600"> Registrate </a>
-
                 </div>
+                {{-- Final del div Registrar --}}
 
+                {{-- Botón de Iniciar Sección --}}
                 <button class="w-48 ml-4 py-2 shadow-md bg-green-500 hover:bg-green-700 text-white rounded-xl font-bold ">Iniciar Sesion</button>
-
+                {{-- Final del boton --}}
             </form>
-
         </div>
+
     </div>
 
 </body>
